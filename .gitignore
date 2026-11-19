@@ -1,0 +1,53 @@
+# ---- Private source data (never publish) ----
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+Result_with_Pass_Fail.xlsx
+Oxford_School_All_Students_Marks_Entry_Sheet-v3.xlsx
+*Marks_Entry_Sheet*
+*Pass_Fail*
+private/
+_source/
+source-assets/
+
+# Student contact / registration information (if added later)
+*contact*list*
+*registration*
+*student*private*
+*admission*data*
+
+# Large original photos (optimised WebP copies are tracked in assets/)
+/*.jfif
+/*.jpeg
+/*.jpg
+/*.png
+/*.webp
+
+# ---- QA artifacts (not part of the site) ----
+screenshots/
+
+# ---- Python / tooling ----
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.log
+
+# ---- Editors / OS / deployment ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.vercel/
+node_modules/
+
+# Keep the public data file and public assets trackable
+!data/
+!data/results.json
+!assets/
+!assets/**
+!tools/
+!tools/convert.py
+!tools/prepare_assets.py

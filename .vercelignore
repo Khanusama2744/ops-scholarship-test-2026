@@ -1,0 +1,33 @@
+# Private Excel files and source materials
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+private/
+_source/
+source-assets/
+Result_with_Pass_Fail.xlsx
+Oxford_School_All_Students_Marks_Entry_Sheet-v3.xlsx
+
+# Large original photos (optimised WebP copies live in assets/images)
+/*.jfif
+/*.jpeg
+/*.jpg
+/*.png
+/*.webp
+
+# QA artifacts not needed by the live site
+screenshots/
+
+# Build tooling and documentation not needed by the static site
+tools/
+*.py
+*.pyc
+*.log
+README.md
+.git/
+.gitignore
+.venv/
+venv/
+.DS_Store
+Thumbs.db
