@@ -98,9 +98,8 @@ Then open <http://localhost:8000>.
 git init
 git add .
 git commit -m "Initial scholarship result website"
-git branch -M main
-git remote add origin YOUR_GITHUB_REPOSITORY_URL
-git push -u origin main
+git remote add origin https://github.com/Khanusama2744/ops-scholarship-test-2026.git
+git push -u origin master
 ```
 
 Never commit the original workbook, `Result_with_Pass_Fail.xlsx`, contact lists or any other private file. The `.gitignore` file already excludes them — double-check with `git status` before committing.
