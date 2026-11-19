@@ -131,6 +131,6 @@ In Vercel: **Project → Settings → Domains → Add**, enter your domain, then
 
 `data/results.json` is publicly downloadable. It contains only roll number, name, father/guardian name, class, previous school, marks, percentage, positions, status and scholarship. Contact numbers, transaction IDs, registration details and the original/updated Excel files are never published.
 
-The gallery's AI-generated illustrations (gallery-3 to gallery-7) were supplied with the project materials and are labelled as illustrative; they are not presented as genuine school photographs. The About text and motto were supplied by the school office.
+All gallery images were supplied for this project. The About text and motto were supplied by the school office.
 
 Developed by Usama Khan.

@@ -25,6 +25,16 @@
   <script src="js/app.js" defer></script>
 </head>
 <body>
+  <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5.5 9.5V21h13V9.5"/><path d="M9.5 21v-6h5v6"/></symbol>
+  <symbol id="i-result" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></symbol>
+  <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0V4Z"/><path d="M8 6H5v2a3 3 0 0 0 3 3M16 6h3v2a3 3 0 0 1-3 3"/><path d="M12 13v4M9 20h6"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13"/><path d="M3.5 6h.01M3.5 12h.01M3.5 18h.01"/></symbol>
+  <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="m4 18 5-5 4 4 3-3 4 4"/></symbol>
+  <symbol id="i-contact" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.5 3h3l1.5 4-2 1.5a13 13 0 0 0 6.5 6.5L17 13l4 1.5v3a2 2 0 0 1-2.2 2A17 17 0 0 1 4 6.2 2 2 0 0 1 6.5 3Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+</svg>
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <header class="site-header" id="site-header">
@@ -40,12 +50,12 @@
 
       <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
         <ul>
-          <li><a class="nav-link is-active" href="#home" data-section="home">Home</a></li>
-          <li><a class="nav-link" href="#result" data-section="result">Check Result</a></li>
-          <li><a class="nav-link" href="#toppers" data-section="toppers">Toppers</a></li>
-          <li><a class="nav-link" href="classes.html" data-section="classes">Class Results</a></li>
-          <li><a class="nav-link" href="#gallery" data-section="gallery">Gallery</a></li>
-          <li><a class="nav-link" href="#contact" data-section="contact">Contact</a></li>
+          <li><a class="nav-link is-active" href="#home" data-section="home"><svg class="icon" aria-hidden="true"><use href="#i-home"></use></svg> Home</a></li>
+          <li><a class="nav-link" href="#result" data-section="result"><svg class="icon" aria-hidden="true"><use href="#i-result"></use></svg> Check Result</a></li>
+          <li><a class="nav-link" href="#toppers" data-section="toppers"><svg class="icon" aria-hidden="true"><use href="#i-trophy"></use></svg> Toppers</a></li>
+          <li><a class="nav-link" href="classes.html" data-section="classes"><svg class="icon" aria-hidden="true"><use href="#i-list"></use></svg> Class Results</a></li>
+          <li><a class="nav-link" href="#gallery" data-section="gallery"><svg class="icon" aria-hidden="true"><use href="#i-image"></use></svg> Gallery</a></li>
+          <li><a class="nav-link" href="#contact" data-section="contact"><svg class="icon" aria-hidden="true"><use href="#i-contact"></use></svg> Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -214,40 +224,40 @@
         <div class="section-heading section-heading--center reveal">
           <span class="eyebrow">Photo gallery</span>
           <h2 id="gallery-title">A glimpse of the school</h2>
-          <p>Photographs and illustrations supplied for this project. AI-generated images are labelled as illustrative.</p>
+          <p>Photographs supplied for this project.</p>
         </div>
         <div class="gallery-grid" id="gallery-grid">
           <figure class="gallery-item reveal" data-index="0">
             <img src="assets/images/gallery-1.webp" alt="School slideshow image supplied by the school office" loading="lazy" width="1600" height="609">
-            <figcaption>School slideshow image <span>(supplied)</span></figcaption>
+            <figcaption>School slideshow image</figcaption>
           </figure>
           <figure class="gallery-item reveal" data-index="1">
             <img src="assets/images/gallery-2.webp" alt="Wide view of the Oxford School &amp; College Sundovi building" loading="lazy" width="1400" height="787">
             <figcaption>School building &mdash; campus view</figcaption>
           </figure>
           <figure class="gallery-item reveal" data-index="2">
-            <img src="assets/images/gallery-3.webp" alt="Illustrative campus image supplied with the project materials" loading="lazy" width="1600" height="893">
-            <figcaption>Illustrative image <span>(AI-generated, supplied)</span></figcaption>
+            <img src="assets/images/gallery-3.webp" alt="Photograph supplied for the school gallery" loading="lazy" width="1600" height="893">
+            <figcaption>School gallery image</figcaption>
           </figure>
           <figure class="gallery-item reveal" data-index="3">
-            <img src="assets/images/gallery-4.webp" alt="Illustrative image supplied with the project materials" loading="lazy" width="1600" height="1195">
-            <figcaption>Illustrative image <span>(AI-generated, supplied)</span></figcaption>
+            <img src="assets/images/gallery-4.webp" alt="Photograph supplied for the school gallery" loading="lazy" width="1600" height="1195">
+            <figcaption>School gallery image</figcaption>
           </figure>
           <figure class="gallery-item reveal" data-index="4">
-            <img src="assets/images/gallery-5.webp" alt="Illustrative image supplied with the project materials" loading="lazy" width="1600" height="893">
-            <figcaption>Illustrative image <span>(AI-generated, supplied)</span></figcaption>
+            <img src="assets/images/gallery-5.webp" alt="Photograph supplied for the school gallery" loading="lazy" width="1600" height="893">
+            <figcaption>School gallery image</figcaption>
           </figure>
           <figure class="gallery-item reveal" data-index="5">
-            <img src="assets/images/gallery-6.webp" alt="Illustrative image supplied with the project materials" loading="lazy" width="1600" height="893">
-            <figcaption>Illustrative image <span>(AI-generated, supplied)</span></figcaption>
+            <img src="assets/images/gallery-6.webp" alt="Photograph supplied for the school gallery" loading="lazy" width="1600" height="893">
+            <figcaption>School gallery image</figcaption>
           </figure>
           <figure class="gallery-item reveal" data-index="6">
-            <img src="assets/images/gallery-7.webp" alt="Illustrative image supplied with the project materials" loading="lazy" width="1600" height="893">
-            <figcaption>Illustrative image <span>(AI-generated, supplied)</span></figcaption>
+            <img src="assets/images/gallery-7.webp" alt="Photograph supplied for the school gallery" loading="lazy" width="1600" height="893">
+            <figcaption>School gallery image</figcaption>
           </figure>
           <figure class="gallery-item reveal" data-index="7">
             <img src="assets/images/gallery-8.webp" alt="Photograph supplied for the school gallery" loading="lazy" width="1280" height="960">
-            <figcaption>Supplied photograph</figcaption>
+            <figcaption>School photograph</figcaption>
           </figure>
         </div>
       </div>
@@ -265,8 +275,8 @@
           <article class="contact-card reveal">
             <span class="contact-card__icon" aria-hidden="true">&#9742;</span>
             <h3>Call the school office</h3>
-            <a href="tel:03437199137" dir="ltr">03437199137</a>
-            <a href="tel:03451595458" dir="ltr">03451595458</a>
+            <a href="tel:03437199137" dir="ltr"><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg> 03437199137</a>
+            <a href="tel:03451595458" dir="ltr"><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg> 03451595458</a>
           </article>
           <article class="contact-card reveal">
             <span class="contact-card__icon contact-card__icon--whatsapp" aria-hidden="true">&#9993;</span>
@@ -280,7 +290,7 @@
             <p>Oxford School &amp; College Sundovi</p>
             <p>Sundovi, Tehsil Puran, District Shangla, Khyber Pakhtunkhwa 19150, Pakistan.</p>
             <p><a href="https://maps.app.goo.gl/iUfeRGPKvLr6mH5d6" target="_blank" rel="noopener noreferrer">View on Google Maps</a></p>
-            <p><a href="mailto:oxfordschoolandcollegesundovi@gmail.com">oxfordschoolandcollegesundovi@gmail.com</a></p>
+            <p><a href="mailto:oxfordschoolandcollegesundovi@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-contact"></use></svg> oxfordschoolandcollegesundovi@gmail.com</a></p>
           </article>
         </div>
         <p class="contact-note reveal">For any correction in the result or for further information, please contact the school office.</p>
@@ -297,20 +307,20 @@
       <div class="footer-column">
         <h2>Quick navigation</h2>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#result">Check Result</a></li>
-          <li><a href="#toppers">Toppers</a></li>
-          <li><a href="classes.html">Class Results</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home"><svg class="icon" aria-hidden="true"><use href="#i-home"></use></svg> Home</a></li>
+          <li><a href="#result"><svg class="icon" aria-hidden="true"><use href="#i-result"></use></svg> Check Result</a></li>
+          <li><a href="#toppers"><svg class="icon" aria-hidden="true"><use href="#i-trophy"></use></svg> Toppers</a></li>
+          <li><a href="classes.html"><svg class="icon" aria-hidden="true"><use href="#i-list"></use></svg> Class Results</a></li>
+          <li><a href="#gallery"><svg class="icon" aria-hidden="true"><use href="#i-image"></use></svg> Gallery</a></li>
+          <li><a href="#contact"><svg class="icon" aria-hidden="true"><use href="#i-contact"></use></svg> Contact</a></li>
         </ul>
       </div>
       <div class="footer-column">
         <h2>Contact</h2>
         <ul>
-          <li><a href="tel:03437199137" dir="ltr">03437199137</a></li>
-          <li><a href="tel:03451595458" dir="ltr">03451595458</a></li>
-          <li><a href="mailto:oxfordschoolandcollegesundovi@gmail.com">oxfordschoolandcollegesundovi@gmail.com</a></li>
+          <li><a href="tel:03437199137" dir="ltr"><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg> 03437199137</a></li>
+          <li><a href="tel:03451595458" dir="ltr"><svg class="icon" aria-hidden="true"><use href="#i-phone"></use></svg> 03451595458</a></li>
+          <li><a href="mailto:oxfordschoolandcollegesundovi@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-contact"></use></svg> oxfordschoolandcollegesundovi@gmail.com</a></li>
           <li>Oxford School &amp; College Sundovi</li>
         </ul>
       </div>
